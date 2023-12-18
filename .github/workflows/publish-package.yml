@@ -33,7 +33,7 @@ jobs:
     - name: Print GitHub Actor
       run: echo "The workflow was triggered by ${GITHUB_ACTOR}"
     - name: Print GitHub Token
-      run: echo "The workflow was triggered by ${secrets.TOKEN}"
+      run: echo "The workflow was triggered by ${SECRETS_TOKEN}"
 
     - name: Build with Gradle
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
