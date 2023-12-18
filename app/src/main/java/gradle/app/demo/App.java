@@ -5,7 +5,7 @@ package gradle.app.demo;
 
 public class App {
     public String getGreeting() {
-        return "Hello World 2!!";
+        return "Hello World 3!!";
     }
 
     public static void main(String[] args) {
