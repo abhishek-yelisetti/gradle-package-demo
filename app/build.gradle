@@ -26,8 +26,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/abhishek-yelisetti/gradle-package-demo")
             credentials {
-                username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_PERSONAL_TOKEN")
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
             }
         }
     }
